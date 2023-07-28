@@ -1,0 +1,105 @@
+* {
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+body {
+    background-image: linear-gradient(to left, #203e13, #0a376b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenar {
+    background-image:
+        linear-gradient(to left, #203e135a, #0a376bc4), url(wallpaperflare.com_wallpaper\ \(8\).jpg);
+    background-size: cover;
+    width: 95%;
+    height: 96%;
+    background-position: center;
+
+}
+
+.contenar:hover {
+    background-image:
+        linear-gradient(to left, transparent, #0a376bde), url(wallpaperflare.com_wallpaper\ \(8\).jpg);
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.ul {
+    margin-left:350px ;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+.ul a {
+    border-bottom: 2px soled wheat;
+}
+
+.ul a {
+    border-bottom: transparent solid 2px;
+}
+
+.ul a:hover {
+    border-bottom: wheat solid 2px;
+}
+
+.content {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    margin-top: 50%;
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 18px;
+    width: 70%;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.content button {
+    padding: 6px 10px;
+    border: transparent solid 2px;
+    border-radius: 10px;
+}
+
+.content button:hover {
+    border: wheat solid 2px;
+    background-color: transparent;
+    color: wheat;
+}
